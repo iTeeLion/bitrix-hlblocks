@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hiblock>
+	<hiblock>
+		<id>2</id>
+		<name>Bool</name>
+		<table_name>b_hlbd_bool</table_name>
+	</hiblock>
+	<langs>
+	</langs>
+	<fields>
+		<field>
+			<id>21</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_NAME</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>200</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<ru>Название</ru>
+			</edit_form_label>
+			<list_column_label>
+				<ru>Название</ru>
+			</list_column_label>
+			<list_filter_label>
+				<ru>Название</ru>
+			</list_filter_label>
+			<error_message>
+				<ru />
+			</error_message>
+			<help_message>
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>22</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_SORT</field_name>
+			<user_type_id>integer</user_type_id>
+			<xml_id />
+			<sort>300</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<min_value>0</min_value>
+				<max_value>0</max_value>
+				<default_value>0</default_value>
+			</settings>
+			<edit_form_label>
+				<ru>Сортировка</ru>
+			</edit_form_label>
+			<list_column_label>
+				<ru>Сортировка</ru>
+			</list_column_label>
+			<list_filter_label>
+				<ru>Сортировка</ru>
+			</list_filter_label>
+			<error_message>
+				<ru />
+			</error_message>
+			<help_message>
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+		<field>
+			<id>23</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_XML_ID</field_name>
+			<user_type_id>string</user_type_id>
+			<xml_id />
+			<sort>400</sort>
+			<multiple>N</multiple>
+			<mandatory>Y</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<size>20</size>
+				<rows>1</rows>
+				<regexp />
+				<min_length>0</min_length>
+				<max_length>0</max_length>
+				<default_value />
+			</settings>
+			<edit_form_label>
+				<ru>Внешний код</ru>
+			</edit_form_label>
+			<list_column_label>
+				<ru>Внешний код</ru>
+			</list_column_label>
+			<list_filter_label>
+				<ru>Внешний код</ru>
+			</list_filter_label>
+			<error_message>
+				<ru />
+			</error_message>
+			<help_message>
+				<ru />
+			</help_message>
+			<base_type>string</base_type>
+		</field>
+		<field>
+			<id>27</id>
+			<entity_id>HLBLOCK_2</entity_id>
+			<field_name>UF_DEF</field_name>
+			<user_type_id>boolean</user_type_id>
+			<xml_id />
+			<sort>800</sort>
+			<multiple>N</multiple>
+			<mandatory>N</mandatory>
+			<show_filter>N</show_filter>
+			<show_in_list>Y</show_in_list>
+			<edit_in_list>Y</edit_in_list>
+			<is_searchable>N</is_searchable>
+			<settings>
+				<default_value>0</default_value>
+				<display>CHECKBOX</display>
+				<label>
+					<0 />
+					<1 />
+				</label>
+				<label_checkbox />
+			</settings>
+			<edit_form_label>
+				<ru>По умолчанию</ru>
+			</edit_form_label>
+			<list_column_label>
+				<ru>По умолчанию</ru>
+			</list_column_label>
+			<list_filter_label>
+				<ru>По умолчанию</ru>
+			</list_filter_label>
+			<error_message>
+				<ru />
+			</error_message>
+			<help_message>
+				<ru />
+			</help_message>
+			<base_type>int</base_type>
+		</field>
+	</fields>
+	<items>
+		<item>
+			<id>1</id>
+			<uf_name>Да</uf_name>
+			<uf_sort>100</uf_sort>
+			<uf_xml_id>Y</uf_xml_id>
+			<uf_def>0</uf_def>
+		</item>
+		<item>
+			<id>2</id>
+			<uf_name>Нет</uf_name>
+			<uf_sort>100</uf_sort>
+			<uf_xml_id>N</uf_xml_id>
+			<uf_def>0</uf_def>
+		</item>
+	</items>
+</hiblock>
